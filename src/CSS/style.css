@@ -1,10 +1,17 @@
 .jumbotron{
   height:100%;
   width:100%;
+  
 }
 body
 {
   
     background-image:url("../../image/Dhoni.jpg") ;
     background-size: 100%;
+}
+
+
+.form-control
+{
+  size: 400px;
 }
