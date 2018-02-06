@@ -7,7 +7,7 @@
      let newsObservable = Rx.Observable.fromPromise(fetch(`http://cricapi.com/api/matches/${apikey}`)
              .then((res) => res.json())
          )
-         .subscribe((data) => {
+         .subscribe((data) => { 
              console.log(data);
              let output = `<h2 style="color:#ffffff">CricWorld</h2>`;
              data.matches.forEach((post) => {

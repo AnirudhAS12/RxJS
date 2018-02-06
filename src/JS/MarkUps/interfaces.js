@@ -1,5 +1,5 @@
 import Rx from 'rxjs/Rx';
-
+// import './style.css';
 
 var interfaces =()=>
 {
